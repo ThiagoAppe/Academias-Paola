@@ -4,6 +4,7 @@ import CarouselCustom from "../components/carouselCustom";
 
 import TestimoniosClientes from "../components/testimoniosClientes";
 
+const RESEÑAS_URL = 'https://raw.githubusercontent.com/ThiagoAppe/Academias-Paola/refs/heads/main/public/reseñas.json';
 
 
 function Home() {
@@ -12,13 +13,15 @@ function Home() {
 
       {/*Carousel*/}
       <div>
-      <CarouselCustom />  
+        <CarouselCustom />
       </div>
       {/*Carousel*/}
 
-      {/* Sección de reseñas */}
-      <div className="w-full max-w-7xl px-6 mb-16">
-       {/*<TestimoniosClientes testimonios={testimonioso}/>*/}
+      <div>
+        {/* Sección de reseñas */}
+        <div className="w-full max-w-7xl px-6 mb-16">
+          <TestimoniosClientes endpoint={RESEÑAS_URL} />
+        </div>
       </div>
 
       {/* Botones de categorías de productos */}

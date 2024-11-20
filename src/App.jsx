@@ -7,15 +7,22 @@ import Productos from './pages/productos';
 import Contacto from './pages/contacto';
 
 function App() {
-  return (
-    <Router>
-      <NavbarWithSearch />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Productos" element={<Productos />} />
-        <Route path="/Contacto" element={<Contacto />} />
-      </Routes>
-    </Router>
+  return (<>
+    <main className=' bg-gray-100'>
+      <Router>
+        <div className='pt-3'>
+          <NavbarWithSearch />
+        </div>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Productos" element={<Productos />} />
+          <Route path="/Contacto" element={<Contacto />} />
+        </Routes>
+      </Router>
+
+    </main>
+  </>
+
   );
 }
 
