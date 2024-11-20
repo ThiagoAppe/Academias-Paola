@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "texto": "Los productos son excelentes, mi cabello nunca había estado tan saludable. ¡Muy recomendados!",
+      "nombre": "María García",
+      "ocupacion": "Estilista",
+      "imagen": "https://via.placeholder.com/50"
+    },
+    {
+      "id": 2,
+      "texto": "La calidad de estos productos es impresionante, ahora mis clientes están más felices que nunca.",
+      "nombre": "Carlos López",
+      "ocupacion": "Barbero",
+      "imagen": "https://via.placeholder.com/50"
+    },
+    {
+      "id": 3,
+      "texto": "No solo mis clientes lo aman, sino que también yo disfruto trabajando con estos productos. ¡Son lo mejor!",
+      "nombre": "Ana Martínez",
+      "ocupacion": "Peluquera Profesional",
+      "imagen": "https://via.placeholder.com/50"
+    }
+  ]
+  
