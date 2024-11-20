@@ -3,8 +3,10 @@ import React, { useState, useEffect } from "react";
 import CarouselCustom from "../components/carouselCustom";
 
 import TestimoniosClientes from "../components/testimoniosClientes";
-
 const RESEÑAS_URL = 'https://raw.githubusercontent.com/ThiagoAppe/Academias-Paola/refs/heads/main/public/reseñas.json';
+
+import CarouselProductos from './components/carouselProductos';
+const productos = 'https://raw.githubusercontent.com/ThiagoAppe/Academias-Paola/refs/heads/main/public/rese%C3%B1as.json'; // La URL donde se encuentran los productos
 
 
 function Home() {
@@ -23,6 +25,8 @@ function Home() {
           <TestimoniosClientes endpoint={RESEÑAS_URL} />
         </div>
       </div>
+
+      <CarouselProductos endpoint={productos} />
 
       {/* Botones de categorías de productos */}
       <div className="w-full max-w-7xl px-6 mb-16">

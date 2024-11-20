@@ -1,5 +1,3 @@
-// src/components/CarouselCustom.jsx
-
 import React, { useState } from "react";
 import { Carousel } from "@material-tailwind/react";
 

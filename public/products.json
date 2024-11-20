@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "nombre": "Secador Profesional X3000",
+      "descripcion": "Secador de cabello de alto rendimiento con tecnología iónica.",
+      "imagen": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 2,
+      "nombre": "Plancha de Cabello Cerámica Pro",
+      "descripcion": "Plancha con recubrimiento cerámico para un alisado perfecto.",
+      "imagen": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 3,
+      "nombre": "Tijeras de Corte Precisión",
+      "descripcion": "Tijeras profesionales con filo japonés para cortes precisos.",
+      "imagen": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 4,
+      "nombre": "Peine de Carbón Antiestático",
+      "descripcion": "Peine resistente al calor ideal para tratamientos térmicos.",
+      "imagen": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 5,
+      "nombre": "Cepillo Térmico Ionizado",
+      "descripcion": "Cepillo profesional que reduce el frizz y mejora el brillo.",
+      "imagen": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 6,
+      "nombre": "Cera Moldeadora Extreme Hold",
+      "descripcion": "Cera para estilizar con una fijación duradera y acabado mate.",
+      "imagen": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 7,
+      "nombre": "Spray Fijador Ultra Firme",
+      "descripcion": "Spray fijador para peinados estructurados y larga duración.",
+      "imagen": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 8,
+      "nombre": "Crema Reparadora Intensiva",
+      "descripcion": "Tratamiento para reparar cabellos dañados e hidratarlos profundamente.",
+      "imagen": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 9,
+      "nombre": "Mascarilla Nutritiva Capilar",
+      "descripcion": "Mascarilla enriquecida con queratina para nutrir y fortalecer.",
+      "imagen": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 10,
+      "nombre": "Aceite de Argán Orgánico",
+      "descripcion": "Aceite puro para hidratar y dar brillo al cabello.",
+      "imagen": "https://via.placeholder.com/150"
+    }
+  ]
+  
