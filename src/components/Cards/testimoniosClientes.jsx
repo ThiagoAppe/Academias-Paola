@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import fetchGeneral from '../utils/request'; 
+import fetchGeneral from '../../utils/request'; 
 
 const TestimoniosClientes = ({ endpoint }) => {
   const [testimonios, setTestimonios] = useState([]);
